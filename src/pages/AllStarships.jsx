@@ -12,12 +12,11 @@ const AllStarships = (props) => {
 
   return (
     <>
-    <h1>All Starships</h1>
     {starships.length ?
     <div>
       {starships.map((starship) => (
-        <div key={starship.index}>
-          <Link key={starship.index} state= {{ starship }} to='/starship'>
+        <div key={starship.index}  className="starship-card">
+          <Link key={starship.index} state= {{ starship }} to='/starship' className="card-link">
             {starship.name}
           </Link><br />
         </div>

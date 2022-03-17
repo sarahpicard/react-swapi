@@ -1,0 +1,20 @@
+div .nav {
+  background-color: black;
+  color: white;
+  margin-top: -26px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+div .starship-card {
+  background-color: #008080;
+  margin: 2%;
+  height: 8vh;
+  width: 30vh;
+  text-align: center;
+  display: inline-block;
+}
+.card-link {
+  color: white;
+}
