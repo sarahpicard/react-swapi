@@ -23,9 +23,10 @@ const AllStarships = (props) => {
       ))}
     </div>
     :
-    <>
-      <h2>Loading Starships...</h2>
-    </>}
+    <div className="loading">
+      <h2 className="loading">Loading Starships...</h2><br />
+      <img src="https://i.imgur.com/R8bulTO.png" alt="Millennium Falcon" />
+    </div>}
   </>
   )
 }
