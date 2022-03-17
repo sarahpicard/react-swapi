@@ -9,3 +9,4 @@ export function getStarshipDetails(apiUrl) {
   return fetch(`${apiUrl}`)
   .then(res => res.json())
 }
+
