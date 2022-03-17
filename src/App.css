@@ -49,3 +49,32 @@ div .starship-card {
   height: 500vh;
   width: 100vh;
 }
+
+.starship-btn {
+  background-color: whitesmoke;
+  color: black;
+  line-height: 5;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 740px;
+  bottom: 540px;
+}
+.starship-btn-div {
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  padding: 200px;
+}
+
+.bg-image {
+  background-image: url('https://i.imgur.com/bsgIG7Q.jpg');
+  background-size: cover;
+}
