@@ -1,7 +1,7 @@
 const Nav = () => {
   return(
     <div className="nav">
-      <h1>Star Wars Starships</h1>
+      <h1>STAR WARS STARSHIPS</h1>
     </div>
   )
 }

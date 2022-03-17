@@ -13,10 +13,10 @@ const Starship = () => {
   })
 
   return (
-    <div>
-      <h5>Name: {starshipDetails.name}</h5>
-      <h5>Model: {starshipDetails.model}</h5>
-      <h5>Manufacturer: {starshipDetails.manufacturer}</h5>
+    <div className="detail-card">
+      <h5 className="prop">Name: {starshipDetails.name}</h5>
+      <h5 className="prop">Model: {starshipDetails.model}</h5>
+      <h5 className="prop">Manufacturer: {starshipDetails.manufacturer}</h5>
     </div>
   )
 }
